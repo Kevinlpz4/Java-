@@ -1,51 +1,42 @@
 # Java
-# 🚀 Laboratorio de Aplicaciones Básicas en Java y Node-RED
+# 🚀 Laboratorio de Java & Node-RED  
 
-Bienvenido a este repositorio donde se recopilan **prácticas de laboratorio** enfocadas en dos pilares:  
-👉 **Java** para afianzar conceptos de Programación Orientada a Objetos.  
-👉 **Node-RED** para experimentar con flujos visuales en automatización e IoT.  
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node--RED-8F0000?style=for-the-badge&logo=nodered&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+</p>
 
----
+Bienvenido a este repositorio, un espacio donde se combinan **conceptos fundamentales de Programación Orientada a Objetos (POO) en Java** con el poder de **Node-RED para flujos visuales e integración de aplicaciones**.  
 
-## 🖥️ Java
-En la parte de **Java** se desarrollaron **aplicaciones básicas** aplicando principios de la **POO**:
-
-- ✅ Clases y Objetos  
-- ✅ Herencia y Polimorfismo  
-- ✅ Encapsulamiento e Interfaces  
-- ✅ Uso de colecciones (`List`, `Set`, `Map`)  
-- ✅ Simulaciones simples en la clase `Main`  
-
-📂 Todo organizado en paquetes para mantener un código **modular y limpio**.  
+Este proyecto nace como un laboratorio académico, pero con la visión de mostrar cómo, a partir de ejercicios básicos, es posible evolucionar hacia el desarrollo de **aplicaciones útiles y escalables** en el mundo real.  
 
 ---
 
-## 🌐 Node-RED
-En la sección de **Node-RED** se trabajó con flujos que representan la base de la programación visual para:
+## 📌 ¿Qué encontrarás aquí?
 
-- 🔄 Automatización de procesos  
-- 📡 Internet de las Cosas (IoT)  
-- 🔌 Integración rápida con APIs y servicios  
+- 🟦 **Java (POO):**  
+  - Clases, objetos, herencia, polimorfismo y encapsulación.  
+  - Bases sólidas para la construcción de aplicaciones robustas.  
+  - Ejemplo de mini-proyecto aplicando los pilares de la POO.  
 
-💡 Los flujos creados muestran cómo combinar **entradas, procesos y salidas** para prototipos funcionales.  
-
----
-
-## 🎯 Objetivo del Laboratorio
-Este repositorio busca:  
-
-✨ Reforzar los fundamentos de la programación en **Java**  
-✨ Familiarizarse con **Node-RED** y su lógica visual  
-✨ Servir como apoyo académico y práctico para futuros proyectos  
+- 🔴 **Node-RED:**  
+  - Introducción a la creación de flujos interactivos.  
+  - Conexión de datos entre servicios y APIs.  
+  - Automatización de procesos con un enfoque visual.  
 
 ---
 
-## 📚 Recursos
-- 📖 [Documentación oficial de Java](https://docs.oracle.com/en/java/)  
-- 🌍 [Node-RED Documentation](https://nodered.org/docs/)  
-- 📝 [W3Schools - Java](https://www.w3schools.com/java/)  
+## 🎯 Objetivo
+
+Demostrar cómo, partiendo de **laboratorios y ejercicios introductorios**, se puede avanzar hasta construir:  
+
+✅ Aplicaciones con **interfaces más dinámicas**.  
+✅ Soluciones que integren **Java + Node-RED** para IoT, domótica o dashboards.  
+✅ Proyectos donde la lógica (Java) y la comunicación (Node-RED) trabajen en conjunto.  
 
 ---
 
-## 🔗 Repositorio
-👉 [Acceder al repositorio en GitHub](https://github.com/Kevinlpz4/Java-)  
+## 📂 Estructura del Repositorio
+
