@@ -19,7 +19,7 @@ public class Main {
 
         int opcion;
         do {
-            System.out.println("\n📚 Menú de la " + libreria.getNombre());
+            System.out.println("\n Menú de la " + libreria.getNombre());
             System.out.println("1. Ver inventario de libros");
             System.out.println("2. Comprar un libro");
             System.out.println("3. Vender un libro a la librería");
@@ -27,7 +27,7 @@ public class Main {
             System.out.print("Elige una opción: ");
 
             while (!sc.hasNextInt()) {
-                System.out.println("⚠️ Ingresa un número válido.");
+                System.out.println(" Ingresa un número válido.");
                 sc.next();
             }
             opcion = sc.nextInt();
@@ -35,7 +35,7 @@ public class Main {
 
             switch (opcion) {
                 case 1:
-                    System.out.println("\n📖 Inventario de la librería:\n");
+                    System.out.println("\n Inventario de la librería:\n");
                     libreria.mostrarInventario();
                     break;
 
@@ -68,24 +68,24 @@ public class Main {
                         String genero = sc.nextLine();
                         Novela nuevaNovela = new Novela(titulo, autorNuevo, precio, genero);
                         libreria.agregarLibro(nuevaNovela);
-                        System.out.println("✅ Libro literario agregado con éxito.");
+                        System.out.println(" Libro literario agregado con éxito.");
                     } else if (tipoLibro == 2) {
                         System.out.print("Asignatura (Matemáticas, Historia, etc.): ");
                         String asignatura = sc.nextLine();
                         LibroDeTexto nuevoTexto = new LibroDeTexto(titulo, autorNuevo, precio, asignatura);
                         libreria.agregarLibro(nuevoTexto);
-                        System.out.println("✅ Texto académico agregado con éxito.");
+                        System.out.println(" Texto académico agregado con éxito.");
                     } else {
-                        System.out.println("⚠️ Tipo no válido. El libro no fue agregado.");
+                        System.out.println(" Tipo no válido. El libro no fue agregado.");
                     }
                     break;
 
                 case 4:
-                    System.out.println("👋 ¡Gracias por visitar la librería!");
+                    System.out.println(" ¡Gracias por visitar la librería!");
                     break;
 
                 default:
-                    System.out.println("⚠️ Opción inválida. Intenta de nuevo.");
+                    System.out.println(" Opción inválida. Intenta de nuevo.");
             }
 
         } while (opcion != 4);
@@ -93,3 +93,4 @@ public class Main {
         sc.close();
     }
 }
+
