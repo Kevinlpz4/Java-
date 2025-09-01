@@ -22,7 +22,7 @@ public class Libreria {
 
     public void mostrarInventario() {
         if (libros.isEmpty()) {
-            System.out.println(" No hay libros en el inventario.");
+            System.out.println("📭 No hay libros en el inventario.");
         } else {
             for (Libro libro : libros) {
                 System.out.println(libro);
