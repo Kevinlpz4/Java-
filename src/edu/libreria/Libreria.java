@@ -4,16 +4,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Libreria {
-    private List<Vendible> inventario = new ArrayList<>();
+    private List<Libro> libros;
 
-    public void agregarProducto(Vendible v) {
-        inventario.add(v);
+    public Libreria() {
+        libros = new ArrayList<>();
+    }
+
+    public void agregarLibro(Libro libro) {
+        libros.add(libro);
     }
 
     public void mostrarInventario() {
-        for (Vendible v : inventario) {
-            System.out.println(v);
+        System.out.println("Inventario de la librería:");
+        for (Libro libro : libros) {
+            System.out.println(libro);
         }
     }
 }
+
 
