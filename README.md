@@ -38,5 +38,12 @@ Demostrar cómo, partiendo de **laboratorios y ejercicios introductorios**, se p
 
 ---
 
-## 📂 Estructura del Repositorio
+## 📚 Recursos
+- 📖 [Documentación oficial de Java](https://docs.oracle.com/en/java/)  
+- 🌍 [Node-RED Documentation](https://nodered.org/docs/)  
+- 📝 [W3Schools - Java](https://www.w3schools.com/java/)  
 
+---
+
+## 🔗 Repositorio
+👉 [Acceder al repositorio en GitHub](https://github.com/Kevinlpz4/Java-)  
