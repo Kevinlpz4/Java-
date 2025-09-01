@@ -44,9 +44,10 @@ public class Libreria {
         Libro libro = buscarPorTitulo(titulo);
         if (libro != null) {
             libros.remove(libro);
-            System.out.println("✅ Has comprado el libro: " + libro);
+            System.out.println(" Has comprado el libro: " + libro);
         } else {
-            System.out.println("❌ El libro no está disponible en la librería.");
+            System.out.println(" El libro no está disponible en la librería.");
         }
     }
 }
+
