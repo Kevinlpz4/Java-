@@ -8,7 +8,7 @@ public class Main {
         Autor autor2 = new Autor("Isaac Newton");
         LibroDeTexto libro1 = new LibroDeTexto("Principia Mathematica", autor2, 120000.0, "Física");
 
-        Libreria libreria = new Libreria();
+        Libreria libreria = new Libreria("Librería Central");
         libreria.agregarLibro(novela1);
         libreria.agregarLibro(libro1);
 
